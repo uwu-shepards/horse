@@ -1,6 +1,6 @@
-# Mantrachain
+# Horse
 
-Mantrachain is a global real-world assets platform built on blockchain technology. It leverages advanced blockchain features to facilitate the tokenization and trading of real-world assets.
+Horse is a global real-world assets platform built on blockchain technology. It leverages advanced blockchain features to facilitate the tokenization and trading of real-world assets.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Mantrachain is a global real-world assets platform built on blockchain technolog
 
 ## Overview
 
-Mantrachain is designed to bridge the gap between traditional assets and the blockchain world. By enabling the tokenization of real-world assets, it opens up new possibilities for asset management, trading, and financial innovation.
+Horse is designed to bridge the gap between traditional assets and the blockchain world. By enabling the tokenization of real-world assets, it opens up new possibilities for asset management, trading, and financial innovation.
 
 ## Features
 
@@ -27,7 +27,7 @@ Mantrachain is designed to bridge the gap between traditional assets and the blo
 
 ## Getting Started
 
-To get started with Mantrachain, you'll need to set up your development environment.
+To get started with Horse, you'll need to set up your development environment.
 
 ### Prerequisites
 
@@ -36,6 +36,7 @@ To get started with Mantrachain, you'll need to set up your development environm
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/MANTRA-Chain/mantrachain.git
    cd mantrachain
@@ -48,8 +49,6 @@ To get started with Mantrachain, you'll need to set up your development environm
 
 ## Development
 
-
-
 ### Testing
 
 To run unit tests:
@@ -58,17 +57,15 @@ To run unit tests:
 make test-unit
 ```
 
-
-
 ## Architecture
 
-Mantrachain follows the Cosmos SDK architecture and implements several custom modules to achieve its functionality. The project uses Architecture Decision Records (ADRs) to document important architectural decisions.
+Horse follows the Cosmos SDK architecture and implements several custom modules to achieve its functionality. The project uses Architecture Decision Records (ADRs) to document important architectural decisions.
 
 For more information on the architecture and design decisions, please refer to the [ADR directory](adr/).
 
 ## Modules
 
-Mantrachain includes several custom modules:
+Horse includes several custom modules:
 
 - `x/xfeemarket`: Extends the fee market functionality to support multiple fee tokens.
 - `x/tokenfactory`: Allows for the creation and management of new tokens (based on Neutron's implementation).
@@ -84,10 +81,7 @@ Please refer to our [Security Policy](SECURITY.md) for more details on reporting
 
 ## Contributing
 
-We welcome contributions to Mantrachain! Please check out our [Contributing Guide](CONTRIBUTING.md) for guidelines about how to proceed.
-
-
-
+We welcome contributions to Horse! Please check out our [Contributing Guide](CONTRIBUTING.md) for guidelines about how to proceed.
 
 ---
 

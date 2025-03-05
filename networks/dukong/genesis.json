@@ -330,21 +330,17 @@
       ],
       "denom_metadata": [
         {
-          "description": "The native staking token of the Mantrachain.",
+          "description": "The native staking token of the Horse.",
           "denom_units": [
             {
               "denom": "uom",
               "exponent": 0,
-              "aliases": [
-                "microom"
-              ]
+              "aliases": ["microom"]
             },
             {
               "denom": "mom",
               "exponent": 3,
-              "aliases": [
-                "milliom"
-              ]
+              "aliases": ["milliom"]
             },
             {
               "denom": "om",
@@ -427,9 +423,7 @@
       "state": {
         "base_gas_price": "0.010000000000000000",
         "learning_rate": "0.125000000000000000",
-        "window": [
-          "0"
-        ],
+        "window": ["0"],
         "index": "0"
       }
     },
@@ -925,9 +919,7 @@
         "clients_consensus": [],
         "clients_metadata": [],
         "params": {
-          "allowed_clients": [
-            "*"
-          ]
+          "allowed_clients": ["*"]
         },
         "create_localhost": false,
         "next_client_sequence": "0"
@@ -1207,9 +1199,7 @@
       },
       "last_updated": "0",
       "params": {
-        "market_authorities": [
-          "mantra15m77x4pe6w9vtpuqm22qxu0ds7vn4ehzwx8pls"
-        ],
+        "market_authorities": ["mantra15m77x4pe6w9vtpuqm22qxu0ds7vn4ehzwx8pls"],
         "admin": "mantra15m77x4pe6w9vtpuqm22qxu0ds7vn4ehzwx8pls"
       }
     },
@@ -1397,9 +1387,7 @@
         "max_bytes": "1000000"
       },
       "validator": {
-        "pub_key_types": [
-          "ed25519"
-        ]
+        "pub_key_types": ["ed25519"]
       },
       "version": {
         "app": "0"

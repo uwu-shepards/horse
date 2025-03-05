@@ -100,10 +100,9 @@ release:
     make install
     ````
 
-  name_template: "Mantrachain v{{.Version}}"
+  name_template: "Horse v{{.Version}}"
   mode: replace
   draft: true
-
 # Docs: https://goreleaser.com/customization/announce/
 # We could automatically announce the release in
 # - discord
@@ -114,6 +113,6 @@ release:
 # - reddit
 #
 # announce:
-  # discord:
-  #   enabled: true
-  #   message_template: 'New {{.Tag}} is out!'
+# discord:
+#   enabled: true
+#   message_template: 'New {{.Tag}} is out!'

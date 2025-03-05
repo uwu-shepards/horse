@@ -17,11 +17,11 @@ You can read more about the ADR concept in this [blog post](https://product.reve
 ADRs are intended to be the primary mechanism for proposing new feature designs and new processes, for collecting community input on an issue, and for documenting the design decisions.
 An ADR should provide:
 
-* Context on the relevant goals and the current state
-* Proposed changes to achieve the goals
-* Summary of pros and cons
-* References
-* Changelog
+- Context on the relevant goals and the current state
+- Proposed changes to achieve the goals
+- Summary of pros and cons
+- References
+- Changelog
 
 Note the distinction between an ADR and a spec. The ADR provides the context, intuition, reasoning, and
 justification for a change in architecture, or for the architecture of something
@@ -42,15 +42,15 @@ When writing ADRs, follow the same best practices for writing RFCs. When writing
 
 ### Accepted
 
-* [ADR 001: Mantrachain ADR Creation](./adr-001-adr-creation.md)
+- [ADR 001: Horse ADR Creation](./adr-001-adr-creation.md)
 
 ### Proposed
 
 ### Draft
 
-* [ADR 002: Moving of guard permission checks to Message level](./adr-002-guard-checks-at-msg-level.md)
-* [ADR 003: Using of official Cosmos-SDK and IBC-Go](./adr-003-use-official-cosmos-modules.md)
-* [ADR 004: Allow users to create permissionless coins](./adr-004-create-permissionless-coins.md)
-* [ADR 005: Default coinfactory coins to be permissionless](./adr-005-default-permissionless-coins.md)
-* [ADR 006: Standardise coinfactory protobuf](./adr-006-standardise-coinfactory.md)
-* [ADR 007: KVStore key prefix](./adr-007-kvstore-key-prefix.md)
+- [ADR 002: Moving of guard permission checks to Message level](./adr-002-guard-checks-at-msg-level.md)
+- [ADR 003: Using of official Cosmos-SDK and IBC-Go](./adr-003-use-official-cosmos-modules.md)
+- [ADR 004: Allow users to create permissionless coins](./adr-004-create-permissionless-coins.md)
+- [ADR 005: Default coinfactory coins to be permissionless](./adr-005-default-permissionless-coins.md)
+- [ADR 006: Standardise coinfactory protobuf](./adr-006-standardise-coinfactory.md)
+- [ADR 007: KVStore key prefix](./adr-007-kvstore-key-prefix.md)

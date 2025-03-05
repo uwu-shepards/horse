@@ -265,12 +265,12 @@ type App struct {
 }
 
 func init() {
-	sdk.SetCoinDenomRegex(MantraCoinDenomRegex)
+	sdk.SetCoinDenomRegex(HorseCoinDenomRegex)
 }
 
-// MantraCoinDenomRegex returns the mantra regex string
+// HorseCoinDenomRegex returns the mantra regex string
 // this is used to override the default sdk coin denom regex
-func MantraCoinDenomRegex() string {
+func HorseCoinDenomRegex() string {
 	return `[a-zA-Z][a-zA-Z0-9/:._-]{1,127}`
 }
 
