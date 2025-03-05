@@ -9,6 +9,4 @@ Horse will be a live-fire devnet.   It will have "real" bridgeable coins and a f
 Horse comes with zero warranty of any kind, for any reason, and even if this chain shoots your dog, well, that's on you for using a dangerous, untested blockchain.
 
 
-## wha?
 
-Well, horse is going to use cosmos-sdk v0.52.x (or maybe 53).  
