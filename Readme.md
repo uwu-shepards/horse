@@ -1,6 +1,6 @@
 # Horse
 
-Horse is a development network for the horse-narwhal-unicron series of chains.
+Horse is a development network for the horse-narwhal-unicorn series of chains.
 
 ## Note
 
