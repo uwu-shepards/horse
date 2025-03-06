@@ -92,7 +92,7 @@ var (
 			Denom:          denom,
 			ChainID:        "chain-id-0",
 			Bin:            "horsed",
-			Bech32Prefix:   "mantra",
+			Bech32Prefix:   "horse",
 			CoinType:       "118",
 			GasAdjustment:  gasAdjustment,
 			GasPrices:      fmt.Sprintf("0%s", denom),

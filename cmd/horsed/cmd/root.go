@@ -41,7 +41,7 @@ func NewRootCmd() *cobra.Command {
 		WithInput(os.Stdin).
 		WithAccountRetriever(authtypes.AccountRetriever{}).
 		WithHomeDir(app.DefaultNodeHome).
-		WithViper("MANTRA")
+		WithViper("HORSE")
 
 	rootCmd := &cobra.Command{
 		Use:           version.AppName,
